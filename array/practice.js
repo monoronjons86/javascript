@@ -11,4 +11,12 @@ var positionIndex=numbers.indexOf(26);
 console.log(positionIndex);
 
 
+//add elements of array
+
+var cooking=['Rice','Vegetable','Dal','Fish']
+cooking.push('alu vaji')
+cooking.pop();
+console.log(cooking);
+
+
 
