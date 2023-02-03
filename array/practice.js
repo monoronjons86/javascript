@@ -1,17 +1,14 @@
-// var numbers=[20,30,40,50,65]
-// numbers.push(70);
-// numbers[1]=44;
-// numbers.pop();
-// console.log(numbers);
+var nayok=['manna','sabnur','riyad','sakib khan']
+console.log(nayok.length);
 
-var math=true;
-var geometry=true;
-var straightLine=false;
+var numbers=[24,23,25,26,28]
+ numbers[1]=21;
+console.log(numbers[0]);
+var output=numbers[3];
+console.log(output);
 
-if (math==true){
+var positionIndex=numbers.indexOf(26);
+console.log(positionIndex);
 
 
-}
-else{
-    
-}
+
