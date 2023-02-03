@@ -18,5 +18,18 @@ cooking.push('alu vaji')
 cooking.pop();
 console.log(cooking);
 
+iPhonePrize=75000;
+myMoney=5000;
+if(iPhonePrize<myMoney){
+    console.log('iphone kine fatamu');
+}
+else{
+    console.log('tor kopal iphone nai');
+}
+
+MyMoney=20;
+
+
+
 
 
