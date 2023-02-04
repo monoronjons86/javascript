@@ -92,10 +92,31 @@ while(rostGiven<10){
 // var average=totalMarks/5;
 // console.log(average);
 
-var fruits=['Apple','Banana','Orange']
-var bananaIndex=fruits.indexOf('Banana')
-fruits[1]='mango'
-fruits.pop();
-fruits.push('watermelon');
-console.log(bananaIndex);
-console.log(fruits);
+// var fruits=['Apple','Banana','Orange']
+// var bananaIndex=fruits.indexOf('Banana')
+// fruits[1]='mango'
+// fruits.pop();
+// fruits.push('watermelon');
+// console.log(bananaIndex);
+// console.log(fruits);
+
+
+var nam1=100;
+var nam2=200;
+var nam3=300;
+if(nam1>nam2){
+    if(nam1>nam3){
+        console.log(nam1);
+    }
+    else{
+        console.log(nam3);
+    }
+}
+else{
+    if(nam2>nam3){
+        console.log(nam2);
+    }
+    else{
+        console.log(nam3);
+    }
+}
