@@ -71,12 +71,31 @@ while(rostGiven<10){
     
 // }
 
-var num=10;
-while(num>=1){
-    console.log(num);
-    num--;
-}
+// var num=10;
+// while(num>=1){
+//     console.log(num);
+//     num--;
+// }
 
-for(var i=10;i>=1;i--){
-    console.log(i);
-}
+// for(var i=10;i>=1;i--){
+//     console.log(i);
+// }
+
+// var mathMarks=75.25;
+// var biologyMarks=65;
+// var chemistryMarks=80;
+// var phyicsMarks=35.45;
+// var banglaMarks=99.50;
+
+// var totalMarks=mathMarks+biologyMarks+chemistryMarks+phyicsMarks+banglaMarks;
+// console.log(totalMarks);
+// var average=totalMarks/5;
+// console.log(average);
+
+var fruits=['Apple','Banana','Orange']
+var bananaIndex=fruits.indexOf('Banana')
+fruits[1]='mango'
+fruits.pop();
+fruits.push('watermelon');
+console.log(bananaIndex);
+console.log(fruits);
