@@ -21,11 +21,11 @@
 
 // }
 
-var rostGiven=0;
-while(rostGiven<10){
-    console.log(rostGiven);
-    rostGiven++;
-}
+// var rostGiven=0;
+// while(rostGiven<10){
+//     console.log(rostGiven);
+//     rostGiven++;
+// }
 
 // again practice try for loop
 
@@ -43,6 +43,7 @@ while(rostGiven<10){
 //     var number=numbers[i];
 //     console.log(number);
 // }
+
 
 // for(var i=1;i<20;i++){
 //     console.log(i);
@@ -101,22 +102,32 @@ while(rostGiven<10){
 // console.log(fruits);
 
 
-var nam1=100;
-var nam2=200;
-var nam3=300;
-if(nam1>nam2){
-    if(nam1>nam3){
-        console.log(nam1);
-    }
-    else{
-        console.log(nam3);
-    }
-}
-else{
-    if(nam2>nam3){
-        console.log(nam2);
-    }
-    else{
-        console.log(nam3);
-    }
-}
+// var nam1=100;
+// var nam2=200;
+// var nam3=300;
+// if(nam1>nam2){
+//     if(nam1>nam3){
+//         console.log(nam1);
+//     }
+//     else{
+//         console.log(nam3);
+//     }
+// }
+// else{
+//     if(nam2>nam3){
+//         console.log(nam2);
+//     }
+//     else{
+//         console.log(nam3);
+//     }
+// }
+// var side1=9;
+// var side2=8;
+// var side3=9;
+// if(side1==side2||side2==side3||side1==side3){
+//     console.log('isoless');
+// }
+// else{
+//     console.log('not isoless');
+// }
+
