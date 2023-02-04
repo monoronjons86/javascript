@@ -29,11 +29,17 @@ while(rostGiven<10){
 
 // again practice try for loop
 
-for(var rostGiven=0;rostGiven<20;rostGiven++)
-{
-    console.log('is for loop',rostGiven);
-}
-//i=i+2
-for(var i=1;i<=10;i+=2){
-    console.log(i);
+// for(var rostGiven=0;rostGiven<20;rostGiven++)
+// {
+//     console.log('is for loop',rostGiven);
+// }
+// //i=i+2
+// for(var i=1;i<=10;i+=2){
+//     console.log(i);
+// }
+
+var numbers=[25,30,35,40,45,50,55,60,65,70]
+for(var i=0;i<numbers.length; i++){
+    var number=numbers[i];
+    console.log(number);
 }
