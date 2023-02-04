@@ -5,8 +5,9 @@
 
 // }
 
-numbers=1;
+var numbers=0;
 while(numbers<=10){
     console.log(numbers);
-    numbers++;
+    // numbers++;
+    numbers=numbers+2;
 }
