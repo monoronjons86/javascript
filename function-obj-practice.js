@@ -45,21 +45,37 @@
 // const dadiFeat=dadaiInches/12;
 // console.log('dadiFeat',dadiFeat);
 
-function inchToFeat(inches){
-    const feet=inches/12;
-    return feet;
+// function inchToFeat(inches){
+//     const feet=inches/12;
+//     return feet;
 
+// }
+// const dadaInches=144;
+// const dadaFeat=inchToFeat(dadaInches);
+// console.log(dadaFeat)
+
+
+// function milesTokillometar(miles){
+//     const killometar=miles*1.609;
+//     return killometar;
+// }
+
+// var killo=2.4;
+// var tortal=milesTokillometar(killo);
+// console.log('tortal',tortal);
+
+//IsEven practice
+function IsEven(number){
+    const remainder=number%2
+    // console.log(remainder);
+    if(remainder==0){
+        return true;
+    }
+    else {
+        return false;
+    }
 }
-const dadaInches=144;
-const dadaFeat=inchToFeat(dadaInches);
-console.log(dadaFeat)
-
-
-function milesTokillometar(miles){
-    const killometar=miles*1.609;
-    return killometar;
-}
-
-var killo=2.4;
-var tortal=milesTokillometar(killo);
-console.log('tortal',tortal)
+const myNumber=IsEven(49);
+console.log(myNumber);
+const herNumber=IsEven(50);
+console.log(herNumber);
