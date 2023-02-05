@@ -65,17 +65,33 @@
 // console.log('tortal',tortal);
 
 //IsEven practice
-function IsEven(number){
-    const remainder=number%2
-    // console.log(remainder);
+// function IsEven(number){
+//     const remainder=number%2
+//     // console.log(remainder);
+//     if(remainder==0){
+//         return true;
+//     }
+//     else {
+//         return false;
+//     }
+// }
+// const myNumber=IsEven(49);
+// console.log(myNumber);
+// const herNumber=IsEven(50);
+// console.log(herNumber);
+
+function isLeeapYear(year){
+    const remainder=year%4;
     if(remainder==0){
         return true;
     }
-    else {
+    else{
         return false;
     }
+
 }
-const myNumber=IsEven(49);
-console.log(myNumber);
-const herNumber=IsEven(50);
-console.log(herNumber);
+const IsMyleepYear=isLeeapYear(1933);
+console.log('IsMyleepYear',IsMyleepYear);
+
+const herLeepYear=isLeeapYear(1960);
+console.log('herleepYear',herLeepYear);
