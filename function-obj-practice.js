@@ -96,16 +96,53 @@
 // const herLeepYear=isLeeapYear(1960);
 // console.log('herleepYear',herLeepYear);
 
-// array declare of  the function
-function getSum(numbers){
-    let sum=0;
-    for(let i=0;i<numbers.length;i++){
-        const index=i;
-        const element=numbers[index];
-        sum=sum+element;
-        console.log(index,element,sum);
+// // array declare of  the function
+// function getSum(numbers){
+//     let sum=0;
+//     for(let i=0;i<numbers.length;i++){
+//         const index=i;
+//         const element=numbers[index];
+//         sum=sum+element;
+//         console.log(index,element,sum);
+//     }
+//     return sum;
+// }
+// const MyNumber=[12,65,85,95,45,30,90];
+// getSum(MyNumber);
+
+
+// function getOddNumber(numbers){
+//     const oddNumbers=[];
+//     for(let i=0;i<numbers.length;i++){
+//         const oddNumbers=[];
+//         const index=i;
+//         const element=numbers[index];
+//         if(element%2 !==0){
+//             console.log(index,element);
+//             oddNumbers.push(element)
+//         }
+//     }
+//     return oddNumbers;
+
+// }
+// const MyNumber=[10,15,20,25,30,35,40]
+// const herNumber= getOddNumber(MyNumber);
+// console.log(herNumber);
+// function sumOfNumber(){
+//     let sum=0;
+//     for(let i=0;i<=Number;i++){
+//         sum=sum+i
+//         console.log(i,sum)
+//     }
+//     return sum;
+// }
+
+function multiplication(number){
+      result=1;
+    for(let i=1;i<=number;i++){
+         result=result*i;
     }
-    return sum;
+    return result;
 }
-const MyNumber=[12,65,85,95,45,30,90];
-getSum(MyNumber);
+const result=multiplication(7);
+console.log(result);
