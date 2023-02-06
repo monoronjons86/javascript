@@ -80,18 +80,32 @@
 // const herNumber=IsEven(50);
 // console.log(herNumber);
 
-function isLeeapYear(year){
-    const remainder=year%4;
-    if(remainder==0){
-        return true;
-    }
-    else{
-        return false;
-    }
+// function isLeeapYear(year){
+//     const remainder=year%4;
+//     if(remainder==0){
+//         return true;
+//     }
+//     else{
+//         return false;
+//     }
 
+// }
+// const IsMyleepYear=isLeeapYear(1933);
+// console.log('IsMyleepYear',IsMyleepYear);
+
+// const herLeepYear=isLeeapYear(1960);
+// console.log('herleepYear',herLeepYear);
+
+// array declare of  the function
+function getSum(numbers){
+    let sum=0;
+    for(let i=0;i<numbers.length;i++){
+        const index=i;
+        const element=numbers[index];
+        sum=sum+element;
+        console.log(index,element,sum);
+    }
+    return sum;
 }
-const IsMyleepYear=isLeeapYear(1933);
-console.log('IsMyleepYear',IsMyleepYear);
-
-const herLeepYear=isLeeapYear(1960);
-console.log('herleepYear',herLeepYear);
+const MyNumber=[12,65,85,95,45,30,90];
+getSum(MyNumber);

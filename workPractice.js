@@ -24,6 +24,6 @@
 // }
 
 
-for(var i=1;i<=39;i++){
-    console.log('aj amar mon vlo nai')
-}
+// for(var i=1;i<=39;i++){
+//     console.log('aj amar mon vlo nai')
+// }
