@@ -26,3 +26,12 @@ function Test(ages){
 }
 const oddtext=Test(23);
 console.log('hi',oddtext);
+
+// ৩. এমন একটা ফ্যাংশনা লিখো যেটাকে তুমি ঘন্টাকে ইনপুট প্যারামিটার হিসেবে দিবে। আর সে সেই ঘন্টাকে মিনিটে কনভার্ট করে মিনিট রিটার্ন করবে। 
+
+function convertHourtoMinute (hour){
+    let minute=hour*60;
+    return minute;
+}
+const total=convertHourtoMinute(2)
+console.log(total);
