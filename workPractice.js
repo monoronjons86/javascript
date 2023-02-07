@@ -27,3 +27,13 @@
 // for(var i=1;i<=39;i++){
 //     console.log('aj amar mon vlo nai')
 // }
+function findingBadData(number){
+    let count =0 ;
+    for(let i = 0; i <= number.length; i++){
+      const element = number[i];
+      if(element < 0) count++;
+    }
+    return count;
+  }
+  let totaldata = findingBadData([ -4, -9, -5, -33, -55,]);
+  console.log(totaldata);
