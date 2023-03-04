@@ -41,7 +41,7 @@
 
     </header>
     <main>
-        <section class="lg:px-12 flex">
+        <section class="lg:px-12 flex flex-col md:flex-row lg:flex-row">
             <div class="products-cetails w-[70%]  mt-5 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
                 <div class="card card-compact w-full bg-base-100 shadow-xl">
                     <figure>
@@ -117,8 +117,31 @@
                   
 
             </div>
-            <div class="cart-details">
-                <h1 class="text-3xl text-center font-bold">Total Products:<span>0</span></h1>
+            <div class="cart-details w-full md:w-[30%] lg:w-[30%] mx-auto">
+                <h1 class="text-3xl text-center font-bold mt-5">Total Products:<span>0</span></h1>
+
+                <div class="overflow-x-auto">
+                    <table class="table w-full">
+                      <!-- head -->
+                      <thead>
+                        <tr>
+                          <th>No</th>
+                          <th>Name</th>
+                          <th>Price</th>
+                          <th>Total</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <!-- row 1
+                        <tr>
+                          <th>1</th>
+                          <td>Cy Ganderton</td>
+                          <td>Quality Control Specialist</td>
+                          <td>Blue</td>
+                        </tr> -->
+                      </tbody>
+                    </table>
+                  </div>
             </div>
         </section>
     </main>
