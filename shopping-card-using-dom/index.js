@@ -1,4 +1,6 @@
+let serial=0;
 document.getElementById('first-card').addEventListener('click',function(){
+    serial=serial+1;
     //get the dat7a
     const productName=document.getElementById('first-name').innerText;
     const productPrice=document.getElementById('first-price').innerText;
@@ -17,28 +19,29 @@ document.getElementById('first-card').addEventListener('click',function(){
 });
 //using even object form browser
 document.getElementById('second-card').addEventListener('click',function(e){
+    serial=serial+1;
 //   console.log(e.target.parentNode.parentNode.children[0].innerText);
   const pName=e.target.parentNode.parentNode.children[0].innerText;
   const pPrice=e.target.parentNode.parentNode.children[2].children[0].innerText;
   const pQuantity=e.target.parentNode.parentNode.children[3].children[0].innerText;
   
-  const sumTotal=parseInt(productPrice)+parseInt(productQuantity);
-  console.log(sumTotal);
+  const sumTotal=parseInt(pPrice)+parseInt(pQuantity);
+  displayData(pName,pPrice,pQuantity,sumTotal);
 
 });
 
 
 //common function to display data
-function displayData(pName,pPrice,pQuantity,sumTotal){
+function displayData(nameOfP,priceOfP,QuantityOfp,resultP){
     const container=document.getElementById('table-container')
 
     const tr=document.createElement("tr");
     tr.innerHTML=`
-     <td>${1}</td>
-     <td>${pName}</td>
-     <td>${pPrice}</td>
-     <td>${pQuantity}</td>
-     <td>${sumTotal}</td>
+     <td>${serial}</td>
+     <td>${nameOfP}</td>
+     <td>${priceOfP}</td>
+     <td>${QuantityOfp}</td>
+     <td>${resultP}</td>
     `;
     container.appendChild(tr);
 }
@@ -48,7 +51,7 @@ function displayData(productName,productPrice,productQuantity,priceTotal){
 
     const tr=document.createElement("tr");
     tr.innerHTML=`
-     <td>${1}</td>
+     <td>${serial}</td>
      <td>${productName}</td>
      <td>${productPrice}</td>
      <td>${productQuantity}</td>
