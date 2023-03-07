@@ -12,10 +12,7 @@ document.getElementById('first-card').addEventListener('click',function(){
     
 
      //show the data 
-     displayData(productName,productPrice,productQuantity,priceTotal);
-
-    
-   
+     displayData(productName,productPrice,productQuantity,priceTotal); 
 });
 //using even object form browser
 document.getElementById('second-card').addEventListener('click',function(e){
@@ -29,6 +26,44 @@ document.getElementById('second-card').addEventListener('click',function(e){
   displayData(pName,pPrice,pQuantity,sumTotal);
 
 });
+
+document.getElementById('third-card').addEventListener('click',function(){
+    serial=serial+1;
+    //get the dat7a
+    const productName=document.getElementById('third-title').innerText;
+    const productPrice=document.getElementById('third-price').innerText;
+    const productQuantity=document.getElementById('third-quantity').innerText;
+    // console.log( productName, productPrice, productQuantity);
+
+    const priceTotal=parseInt(productPrice)-parseInt(productQuantity) ;
+    console.log(priceTotal);
+    
+
+     //show the data 
+     displayData(productName,productPrice,productQuantity,priceTotal); 
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 //common function to display data
