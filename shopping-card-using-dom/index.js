@@ -30,9 +30,7 @@ document.getElementById('second-card').addEventListener('click',function(e){
 document.getElementById('third-card').addEventListener('click',function(){
     serial=serial+1;
     //get the dat7a
-    const productName=document.getElementById('third-title').innerText;
-    const productPrice=document.getElementById('third-price').innerText;
-    const productQuantity=document.getElementById('third-quantity').innerText;
+
     // console.log( productName, productPrice, productQuantity);
 
     const priceTotal=parseInt(productPrice)-parseInt(productQuantity) ;
@@ -67,6 +65,12 @@ document.getElementById('third-card').addEventListener('click',function(){
 
 
 //common function to display data
+function getAllData(){
+    const productName=document.getElementById('third-title').innerText;
+    const productPrice=document.getElementById('third-price').innerText;
+    const productQuantity=document.getElementById('third-quantity').innerText;
+
+}
 function displayData(nameOfP,priceOfP,QuantityOfp,resultP){
     const container=document.getElementById('table-container')
 
