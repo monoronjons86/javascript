@@ -43,6 +43,21 @@ document.getElementById('third-card').addEventListener('click',function(){
      displayData(productName,productPrice,productQuantity,priceTotal); 
 });
 
+document.getElementById('last-card').addEventListener('click',function(){
+    serial=serial+1;
+    const productName=document.getElementById('last-title').innerText;
+    const productPrice=document.getElementById('first-input').value ;
+    const productQuantity=document.getElementById('second-input').value;
+    if(productPrice==" "|| productQuantity==""){
+        return alert("please enter valid number"); 
+    }
+
+    const total=parseInt(productPrice)/parseInt(productQuantity);
+    console.log(total);
+    displayData(productName,productPrice,productQuantity,total);
+
+});
+
 
 
 
